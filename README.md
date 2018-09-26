@@ -9,3 +9,8 @@ Check the [repo](https://github.com/stephenturner/oneliners) by [Stephen](https:
 ```Bash
 ls | xargs -n1 sh -c 'echo $0 $(basename $0 <file-extension>)'
 ```
+## RNA-Seq
+
+- "Guess" whether RNA-Seq data is stranded or not by using `infer_experiment.py` from RSeQC.
+  - [RSeQC](http://rseqc.sourceforge.net/#infer-experiment-py)
+  - Reference [BED file](https://sourceforge.net/projects/rseqc/files/BED/Human_Homo_sapiens/) (Human)
