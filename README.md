@@ -9,7 +9,7 @@ Check the [repo](https://github.com/stephenturner/oneliners) by [Stephen](https:
 ```Bash
 ls | xargs -n1 sh -c 'echo $0 $(basename $0 [file-extension])'
 ```
-- Print read lengths and their counts in .fastq file
+Print read lengths and their counts in .fastq file
   - From [Biostars](https://www.biostars.org/p/72433/)
 ```Bash
 awk 'if (NR%4 == 2) {len[len($0)]++} END {for (l in len) {print l, len[l]}}' [input.fastq]
