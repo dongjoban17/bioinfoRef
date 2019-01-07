@@ -17,6 +17,11 @@ awk 'if (NR%4 == 2) {len[len($0)]++} END {for (l in len) {print l, len[l]}}' [in
 ```Bash
 awk '{split($1,a,"|"); print a[1], substr($0,length($1)+1);}' quant.sf | tr -d " "
 ```
+- Print columns and its corresponding column number.
+```Bash
+awk '{for (i=1; i<=NF; i++) print i"\t"$i; exit}' [filename]
+```
+
 ## RNA-Seq
 
 - "Guess" whether RNA-Seq data is stranded or not by using `infer_experiment.py` from RSeQC.
