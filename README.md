@@ -21,6 +21,11 @@ awk '{split($1,a,"|"); print a[1], substr($0,length($1)+1);}' quant.sf | tr -d "
 ```Bash
 awk '{for (i=1; i<=NF; i++) print i"\t"$i; exit}' [filename]
 ```
+- Sort all but header (Below is for when header consists of only 1 line). Originally from [StackOverflow](https://stackoverflow.com/questions/14562423/is-there-a-way-to-ignore-header-lines-in-a-unix-sort)
+```Bash
+# Parenthesis collects stdout from commands within it
+(head -n1 [filename] && tail -n+2 [filename] | sort) > [outname]
+```
 
 ## RNA-Seq
 
