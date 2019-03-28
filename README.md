@@ -6,10 +6,10 @@ Repository for keeping useful bioinformatics references
 ## bash 
    1. [one-liners](#one-line-bash-commands)  
    
-## 2. python
+## python
    1. [Pandas](#pandas)
 
-## 3. RNA-Seq
+## RNA-Seq
    1. [RSeQC](#rseqc)
 
 ## One-line bash commands
