@@ -1,6 +1,14 @@
 # bioinfoRef
 Repository for keeping useful bioinformatics references
 
+## Content
+
+### 1. bash
+   1. [one-liners](#one-line-bash-commands)
+   
+2. python
+3. RNA-Seq
+
 ## One-line bash commands
 
 Check the [repo](https://github.com/stephenturner/oneliners) by [Stephen](https://github.com/stephenturner) first to see if he already has a one-line bash command that will work
