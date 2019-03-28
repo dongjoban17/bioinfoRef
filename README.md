@@ -1,13 +1,16 @@
 # bioinfoRef
 Repository for keeping useful bioinformatics references
 
-## Content
+# Content
 
-### 1. bash
-   1. [one-liners](#one-line-bash-commands)
+## bash 
+   1. [one-liners](#one-line-bash-commands)  
    
-2. python
-3. RNA-Seq
+## 2. python
+   1. [Pandas](#pandas)
+
+## 3. RNA-Seq
+   1. [RSeQC](#rseqc)
 
 ## One-line bash commands
 
@@ -35,7 +38,15 @@ awk '{for (i=1; i<=NF; i++) print i"\t"$i; exit}' [filename]
 (head -n1 [filename] && tail -n+2 [filename] | sort) > [outname]
 ```
 
-## RNA-Seq
+## Pandas
+
+List of resources for working with Pandas dataframe in Python
+
+- [Read in CSV and enforce the values in the columns to be strings](https://stackoverflow.com/questions/16988526/pandas-reading-csv-as-string-type)
+- [Group by _n_ columns and merge values in the remaining columns, if needed](https://stackoverflow.com/questions/14529838/apply-multiple-functions-to-multiple-groupby-columns)
+
+## RSeQC
+A suite of tools for working with RNA-Seq data
 
 - "Guess" whether RNA-Seq data is stranded or not by using `infer_experiment.py` from RSeQC.
   - [RSeQC](http://rseqc.sourceforge.net/#infer-experiment-py)
