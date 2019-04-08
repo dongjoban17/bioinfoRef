@@ -3,6 +3,9 @@ Repository for keeping useful bioinformatics references
 
 # Content
 
+## Must-know
+   1. Coordinate Systems - [1- vs. 0-based](https://www.biostars.org/p/84686/)
+
 ## bash 
    1. [one-liners](#one-line-bash-commands)  
    
